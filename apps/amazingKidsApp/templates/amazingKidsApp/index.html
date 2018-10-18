@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'amazingKidsApp/css/indexU.css' %}" media="screen" title="amazingKidsApp"  charset="utf-8">
+        <!-- <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type"> -->
+    </head> 
+    <body>
+    <div class="container">
+            <div class="topnav" id="myTopnav">
+                <a h ref="/"class="active">Amazing Kids Christian Child Care</a>
+                <a href="/">Home</a>
+                <a href="/curriculum">Our Curriculum</a>
+                <a href="mailto:christiankidslearning@gmail.com?Subject=Hi,%20Amazing%20Kids!">Contact</a>
+                <div class="dropdown">
+                      <!-- <button class="dropbtn">Dropdown 
+                        <i class="fa fa-caret-down"></i>
+                      </button> -->
+                      <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div>
+                    </div> 
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                  </div>  
+        <!-- </div> -->
+        <div class="informationComponent">
+            <div class="informationWrapper">
+                <div class="hoursOfOperationWrapper">
+                    <div class="hoursOfOperation">
+                        <h1>Hours</h1>
+                        <p> M-F 7:30 a.m. - 6 p.m</p>   
+                    </div>
+                </div>
+                <div class="locationWrapper">
+                    <div class="location">
+                        <h1>Address</h1>
+                        <p>
+                            1245 N.E. 140th ST.
+                            Seattle, WA 98125-3108
+                        </p>
+                    </div>
+                </div>
+                <div class="phoneNumberWrapper">
+                    <div class="phoneNumber">
+                        <h1>Phone Number</h1>
+                        <p>(206) 364-7428  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutUsComponent">
+            <div class="aboutUsWrapper">
+            <div id="aboutUsHeader">
+                <!-- <img class="paintStrokeYellow" src="../static/amazingKidsApp/images/YellowStroke.png" alt="logo"> -->
+                <h1>About Us</h1>
+                <!-- <img class="paintStrokeYellow" src="../static/amazingKidsApp/images/YellowStroke.png" alt="logo"> -->
+            </div>
+            <div class="aboutUsTextWrapper">
+            <p>
+                Amazing Kids Christian Child Care & Pre-school encourages children to grow and learn.  We do this by giving the individual care our students need and deserve. Our desire is to meet  each one of our students where they are and help them grow and learn. 
+                his is accomplished through group learning, age appropriate play & pre-academic experiences which are provided daily. The children love learning their ABC’s &  phonics as well as early childhood math. We provide a positive child centered program that encourages children to learn and love learning.     
+                To help children understand the love and care we receive from  God, we use the Bible, songs and story telling to teach Christian lessons. Our students are encouraged, respected, and lovingly taught social and cognitive skills through the personal guidance of the teachers. We use a variety of age appropriate learning tools, including games, music, physical activities, creative art, dramatic play, promoting socialization and problem solving abilities.      We serve nutritious & well balanced meals in keeping with state guidelines. This helps the children learn good eating habits early in life.   
+                Our outdoor play yard is completely enclosed and secure so your kids can have a safe, fun place to run and play.
+            </p>
+        </div>
+        </div>
+            <div class="backdropSlide"></div>
+        </div>
+            <div class='meetTheTeamComponent'>
+                    <div class="ownerWrapper">
+                    <br>
+                    <div class="meetTheTeamHeader">
+                        <h1>Meet the Team</h1>
+                    </div>
+                    <br>
+                    <div class="profileWrapper">
+                        <div class="profile">
+                            <img class="ownerPicture" src="../static/amazingKidsApp/images/NancyJohnson.jpg" alt="logo">
+                            <div class="ownerInfo">
+                                <h2>Nancy Johnson</h2>
+                                <p><b>Founder</b></p>
+                            </div>
+                            <p class="profileStory">Nancy is passionate about teaching the children through play and group learning activities. I enjoy teaching math, themed curriculum and Bible story's.</p>
+                        </div>
+                        <div class="profile">
+                            <img class="ownerPicture" src="../static/amazingKidsApp/images/veneta .jpg" alt="logo">
+                            <div class="ownerInfo">
+                                <h2>Veneta Kearns</h2>
+                                <p><b>Founder</b></p>
+                            </div>
+                            <p class="profileStory">Veneta loves to teach art, cooking, science and outdoor play. Seeing the excitement of children discovering and creating is a joy.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <div class="corriculumComponent">
+                <div class="corriculumHeader">
+                    <h1>Our Curriculum</h1>
+                </div>
+                <div class="corriculumWrapper">
+                    <div class="infant">
+                        <img class="programs-pictures" src="../static/amazingKidsApp/images/infant3.jpg" alt="logo">
+                        <p id="corriculumText">Infant</p>
+                    </div>
+                    <div class="toddler">
+                        <img class="programs-pictures" src="../static/amazingKidsApp/images/rex.jpg" alt="logo">
+                        <p id="corriculumText">Toddler</p>
+                    </div>
+                    <div class="preK">
+                        <img class="programs-pictures" src="../static/amazingKidsApp/images/prek.jpg" alt="logo">
+                        <p id="corriculumText">Preschool</p>
+                    </div>
+                    <div class="kindergardenPrep">
+                        <img class="programs-pictures" src="../static/amazingKidsApp/images/Kindergarden.jpg" alt="logo">
+                        <p id="corriculumText">Kindergarden Prep</p>
+                    </div>
+                    <div class="programButtonContainer">
+                        <a href='curriculum'><button>About Our Curriculum</button></a>
+                    </div>
+                </div> 
+            </div>
+        <div class="testimonialsComponent">
+            <div id="testimonialsHeader">
+                <h1>What Parents Are Saying</h1>
+            </div>
+                  <div class="left-arrow" onclick="plusDivs(-1)">&#10094;</div>
+                  <div class="right-arrow" onclick="plusDivs(1)">&#10095;</div>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                  <p class="mySlides">"I have an infant who has received amazing (like the name says!) social development and TLC at this in-home childcare.  I agree with the other reviewer on all these things. The owners/staff, Nancy and Veneta, a tag team of sisters in the profession for almost two decades now, do their work with a lot of heart, mainly because to them, this isn't just a job. The interior is a bit cramped but they do a lot with the space they do have, and the backyard is fairly large, with many opportunities to mobile kids to run around and play games."<br><br><b class="mySlidesReviewer">Mytoan N. <span style="font-weight: normal"> -Amazing Kids Christian Child Care Parent</span></b></p>
+                  <p class="mySlides">"My daughter goes to Amazing Kids Christian Childcare and she is happy all the time at the childcare. Nancy and Veneta are so sweet and caring! They also know how to teach the kids good habits as they grow. I love that the childcare is clean, tidy and well organized with lots of toys and books, make the kids busy all the time. The price is also very affordable.  I can not recommend this childcare enough."<br><br><b class="mySlidesReviewer">Thao L. <span style="font-weight: normal"> -Amazing Kids Christian Child Care Parent</span></b></p>
+                <!-- </div> -->
+              </div>
+        </div>
+        <div class="footerComponent">
+        </div>
+        <div class="sun">
+                <div class="block2">
+                    <div class='block1'>
+                        <div class="block1-content">
+                            <div class="footerWrapper">
+                                <div class ="footerLinks">
+                                        <p><b>Amazing Kids Christian Child Care</b></p><br>
+                                        <ul>
+                                            <a href="/"><li>Home</li></a>
+                                            <a href="/curriculum"><li>Our Curriculum</li></a>
+                                            <a href="mailto:christiankidslearning@gmail.com?Subject=Hi,%20Amazing%20Kids!"><li>Contact</li></a>
+                                        </ul> 
+                                </div>
+                                <div class ="footerSocials">
+                                        <p><b>Socials</b></p><br>
+                                        <ul>
+                                        <!-- <a href="/"><li><img src="../static/amazingKidsApp/images/twitter.png" alt="logo">Follow Amazing Kids Care on Twitter</li></a>
+                                        <a href="/"><li><img src="../static/amazingKidsApp/images/facebook.png" alt="logo">Follow Amazing Kids Care on Facebook</li></a>
+                                        <a href="/"><li><img src="../static/amazingKidsApp/images/instagram.png" alt="logo">Follow Amazing Kids Care on Instagram</li></a> -->
+                                        <a href="https://www.yelp.com/biz/amazing-kids-christian-child-care-seattle"><li><img src="../static/amazingKidsApp/images/yelp.png" alt="logo">Review Amazing Kids Care on Yelp</li></a>
+                                        </ul>                            
+                                </div>
+                                <p class="watermark">© 2018 Amazing Kids Christian Child Care. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+        </div>
+        <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function currentDiv(n) {
+                  showDivs(slideIndex = n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("demo");
+                  if (n > x.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                     dots[i].className = dots[i].className.replace(" w3-white", "");
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " w3-white";
+                }
+
+
+                window.onscroll = function() {myFunction()};
+
+                </script>
+                    <script>
+                            window.onscroll = () => {
+                                const nav = document.querySelector("#navBar");
+                                if(this.scrollY <= 10) nav.className = ''; else
+                            nav.className = 'scroll';
+                            };
+                        </script>
+                        <script>
+                            function mobileNavBar() {
+                              var x = document.getElementById("myLinks");
+                              if (x.style.display === "block") {
+                                x.style.display = "none";
+                              } else {
+                                x.style.display = "block";
+                              }
+                            }
+                            </script>
+
+<script>
+    function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        </script>       
+</html>

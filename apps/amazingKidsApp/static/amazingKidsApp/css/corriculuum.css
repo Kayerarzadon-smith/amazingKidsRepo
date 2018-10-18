@@ -1,0 +1,1628 @@
+html, body {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    margin: 0; 
+}
+.Wrapper {
+    height: 100%;
+    width: 100%;
+}
+.paintStrokeGreen {
+    width: 100%;
+    height: 10px;
+    display: block;
+}
+
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+/* N A V I G A T I O N  B A R */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(60, 143, 0);
+    position: fixed;
+    width:100%;
+} 
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.active {
+    background-color: #330883d2;
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Montserrat,Arial,sans-serif;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+/* I N F O R M A T I O N  C O M P O N E N T */  /* I N F O R M A T I O N  C O M P O N E N T */
+.informationComponent {
+    width: 100%;
+    background-color: lightgrey;
+    height: auto;
+    /* padding-top: 50px; */
+}
+
+/* I N F O R M A T I O N  W R A P P E R  */
+/* I N F O R M A T I O N  W R A P P E R  */
+/* I N F O R M A T I O N  W R A P P E R  */
+/* I N F O R M A T I O N  W R A P P E R  */
+.informationWrapper {
+    width: auto;
+    margin: auto;
+    padding-top: 50px;
+} 
+
+/* H O U R S  O F  O P E R A T I O N */
+/* H O U R S  O F  O P E R A T I O N */
+.hoursOfOperationWrapper {
+    display: inline-block;
+    width: auto; 
+    text-align: center;
+}
+.hoursOfOperation {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+    text-align: center;
+}
+.hoursOfOperation h1 {
+    display: inline-block;
+    margin-top:0px;
+    font-size: 20px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+.hoursOfOperation p {
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+
+/* L O C A T I O N  *//* L O C A T I O N  */
+/* L O C A T I O N  *//* L O C A T I O N  */
+.locationWrapper {
+    display: inline-block;
+    width: auto; 
+    text-align: center;
+}
+.location {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+    text-align: center; 
+}
+.location h1 {
+    display: inline-block;
+    margin-top:0px;
+    font-size: 20px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+.location p {
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+/* P H O N E  N U M B E R  */
+/* P H O N E  N U M B E R  */
+.phoneNumberWrapper {
+    display: inline-block;
+    width: auto; 
+    text-align: center;  
+}
+.phoneNumber {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    width: auto; 
+    text-align: center;  
+}
+.phoneNumber h1{
+    display: inline-block;
+    margin-top:0px;
+    font-size: 20px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+.phoneNumber p{
+    display: inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: #000080ad;
+}
+
+
+/* IPAD PRO LANDSCAPE */
+@media only screen and (max-width: 1366px) {
+    .locationWrapper {
+        width: auto;
+        display: inline-block;
+    }
+}
+
+/* IPAD LANDSCAPE & IPAD PRO*/
+@media only screen and (max-width: 1024px) {
+    .location {
+        width: auto;
+    }
+
+}
+
+
+/* IPHONE X: LANDSCAPE */
+@media only screen and (max-width: 812px) {
+    .hoursOfOperation p {
+        font-size: 12px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .phoneNumber p {
+        font-size: 12px;
+    }
+}
+
+/* IPAD */
+@media only screen and (max-width: 768px) {
+    .informationWrapper {
+        width: auto;
+    }
+    .hoursOfOperationWrapper {
+        width: auto; 
+    }
+    .hoursOfOperation {
+        width: auto; 
+    }
+    .hoursOfOperation h1 {
+        font-size: 15px;
+    }
+    .hoursOfOperation p {
+        font-size: 12px;
+    }
+    .locationWrapper {
+        width: auto;
+        display: inline-block;
+    }
+    .location {
+        width: auto;
+    }
+    .location h1 {
+        font-size: 15px;
+    }
+    .location p {
+        font-size: 12px;
+    }
+    .phoneNumberWrapper {
+        width: auto;
+    }
+    .phoneNumber {
+        /* margin: 5px;
+        padding: 5px; */
+        display: inline-block;
+        width: auto;
+    }
+    .phoneNumber h1 {
+        font-size: 15px;
+    }
+    .phoneNumber p {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 823px) {
+    .informationWrapper {
+        width: auto;
+    }
+    .hoursOfOperationWrapper {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #330883d2; 
+    }
+    .hoursOfOperation {
+        width: auto;
+        margin-left:30px; 
+    }
+    .locationWrapper {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #330883d2; 
+    }
+    .location {
+        width: auto;
+        margin-left:30px; 
+    }
+    .phoneNumberWrapper {
+        width: 100%;
+        text-align: left;
+    }
+    .phoneNumber {
+        width: auto;
+        margin-left:30px;
+    }
+}
+/* IPONE 5/SE */
+
+@media only screen and (max-width: 320px) {
+    .hoursOfOperation {
+        margin-left: 15px;
+    }
+    .location {
+        margin-left: 15px;
+    }
+
+    .phoneNumber {
+        margin-left: 15px; 
+    }
+}
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+/* C O R R I C U L U M  C O M P O N E N T */   /* C O R R I C U L U M  C O M P O N E N T */
+.corriculumComponent {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    color: #1d0054a6;  
+    background-image: url('../images/specks.png')
+}
+.corriculumHeader {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    font-family: Montserrat,Arial,sans-serif;
+} 
+.corriculumHeader h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+@media only screen and (max-width: 414px) {
+    .corriculumHeader h1{
+        font-size: 50px;
+    } 
+    .corriculumHeader {
+        width: 100%;
+    } 
+}
+
+
+
+
+/* C O R R I C U L U M  W R A P P E R */
+/* C O R R I C U L U M  W R A P P E R */
+/* C O R R I C U L U M  W R A P P E R */
+/* C O R R I C U L U M  W R A P P E R */
+.corriculumWrapper {
+    width: 100%;
+    display: block;
+    background-color: azure;
+}
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */   
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */  
+/* I N F A N T  C O M P O N E N T  */  /* I N F A N T  C O M P O N E N T  */ 
+.infant {
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    background-color: whitesmoke;
+
+}
+.corriculumInfantPic {
+    width: 50%;
+    float: right;
+    background-size: cover;
+    height: 500px;
+    background: linear-gradient(to right,whitesmoke, transparent 40%), url("../images/infant500.jpg") no-repeat;
+}
+.corriculumInfantText {
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+    background-color:whitesmoke;
+    color: #1d0054a6;
+    font-family: Montserrat, Arial,sans-serif;
+    background-image: url('../images/specks.png');
+    padding-top: 60px;
+}
+.corriculumInfantText h1{
+    color: rgb(60, 143, 0);
+}
+.corriculumInfantText p{
+    font-size: 20px;
+    color: grey;
+    text-align: left;
+}
+.corriculumInfantTextWrapper {
+    width:600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: grey;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .corriculumInfantPic {
+        width: 58%;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("../images/infant500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 42%;
+    }
+    .corriculumInfantTextWrapper {
+        width:400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 18px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 1024px) {
+    .corriculumInfantPic {
+        width: 60%;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("../images/infant500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 40%;
+        height: 300px;
+        padding-top: 60px;
+    }
+    .corriculumInfantTextWrapper {
+        width:360px;
+        height: auto;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 17px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 823px) {
+    .infant {
+        height: 500px;
+    }
+    .corriculumInfantPic {
+        width: 61%;
+        height: 500px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("../images/infantPic500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 39%;
+    }
+    .corriculumInfantTextWrapper {
+        width:250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 16px;
+    }  
+}
+
+
+@media only screen and (max-width: 768px) {
+    .corriculumInfantPic {
+        width: 61%;
+        height: 500px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("../images/infantPic500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width: 39%;
+        height: 300px;
+        padding-top: 60px;
+    }
+    .corriculumInfantTextWrapper {
+        width:300px;
+        height: auto;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 17px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 640px) {
+    .infant {
+        height: auto;
+    }
+    .corriculumInfantPic {
+        width: 50%;
+        height: 300px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("../images/infantPic375.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumInfantTextWrapper {
+        height: auto;
+    }
+    .corriculumInfantText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 414px) {
+    .infant {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumInfantPic {
+        width: 100%;
+        height: 400px;
+        display:block;
+        float: none;
+        background: linear-gradient(whitesmoke, transparent 50%), url("../images/infantPic500.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('../images/specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumInfantText h1{
+        text-align: center;
+    } 
+    .corriculumInfantText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+
+
+@media only screen and (max-width: 375px) {
+    .infant {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumInfantPic {
+        width: 100%;
+        height: 300px;
+        display:block;
+        float: none;
+        background: linear-gradient(whitesmoke, transparent 50%), url("../images/infantPic375.jpg") no-repeat;
+    }
+    .corriculumInfantText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('../images/specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumInfantTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumInfantText h1{
+        text-align: center;
+    } 
+    .corriculumInfantText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+/* T O D D L E R  C O M P O N E N T */  /* T O D D L E R  C O M P O N E N T */
+.toddler {
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-color: azure;
+}
+.corriculumToddlerPic {
+    width: 47%;
+    float: left;
+    margin: 0px;
+    background-size: cover;
+    height: 500px;
+    background: linear-gradient(to left,azure, transparent 70%), url("../images/toddler500.jpg") no-repeat;
+}
+.corriculumToddlerText {
+    width: 50%;
+    height: 400px;
+    margin: 0px;
+    display: inline-block;
+    background-color: azure;
+    color: #1d0054a6;
+    padding-top: 60px;
+    background-image: url('../images/specks.png');
+    font-family: Montserrat,Arial,sans-serif;
+}
+.corriculumToddlerText h1{
+    color:  #1d0054a6;
+}
+.corriculumToddlerText p{
+    font-size: 20px;
+    color: grey;
+}
+.corriculumToddlerTextWrapper {
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .corriculumToddlerPic {
+        width: 49%;
+        float: left;
+        margin: 0px;
+        background-size: cover;
+        height: 500px;
+        background: linear-gradient(to left,azure, transparent 70%), url("../images/toddler500.jpg") no-repeat;
+    }
+    .corriculumToddlerText {
+        width: 51%;
+        height: auto;
+        margin: 0px;
+        display: inline-block;
+        background-color: azure;
+        color: #1d0054a6;
+        padding-top: 60px;
+    }
+    .corriculumToddlerTextWrapper {
+        width:400px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumToddlerText p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .corriculumToddlerPic {
+        width: 60%;
+        float: left;
+        margin: 0px;
+        background-size: cover;
+        height: 500px;
+        background: linear-gradient(to left,azure, transparent 70%), url("../images/toddler500.jpg") no-repeat;
+    }
+    .corriculumToddlerText {
+        width: 40%;
+        height: auto;
+        margin: 0px;
+        display: inline-block;
+        background-color: azure;
+        color: #1d0054a6;
+        padding-top: 60px;
+    }
+    .corriculumToddlerTextWrapper {
+        width:400px;
+        height: 400px;
+        margin-left: 0px;
+    }
+    .corriculumToddlerText p{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 823px) {
+    .toddler {
+        margin:0px;
+        width: 100%;
+        height: 500px;
+        display: inline-block;
+        background-color: azure;
+    }
+    .corriculumToddlerPic {
+        width: 58%;
+        float: left;
+        margin: 0px;
+        background-size: cover;
+        height: 500px;
+        background: linear-gradient(to left,azure, transparent 60%), url("../images/toddlerPic500.jpg") no-repeat;
+    }
+    .corriculumToddlerText {
+        width: 41%;
+        height: 400px;
+        margin: 0px;
+        display: inline-block;
+        background-color: azure;
+        color: #1d0054a6;
+        padding-top: 60px;
+    }
+    .corriculumToddlerTextWrapper {
+        width:250px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumToddlerText p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 812px) {
+    .corriculumToddlerPic {
+        width: 59%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .corriculumToddlerPic {
+        width: 56%;
+    }
+}
+@media only screen and (max-width: 667px) {
+    .corriculumToddlerPic {
+        width: 51%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .toddler {
+        height: auto;
+    }
+    .corriculumToddlerPic {
+        width: 50%;
+        height: 300px;
+        background: linear-gradient(to left,azure, transparent 90%), url("../images/toddlerPic375.jpg") no-repeat;
+    }
+    .corriculumToddlerText {
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumToddlerTextWrapper {
+        height: auto;
+    }
+    .corriculumToddlerText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 414px) {
+    .toddler {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumToddlerPic {
+        width: none;
+        height: none;
+        display:none;
+        background-size: cover;
+        background: none;  
+    }
+    .corriculumToddlerText {
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+        background-color: azure;
+        color: #1d0054a6;
+        padding-top: 0px;
+    }
+    .corriculumToddlerTextWrapper {
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumToddlerText h1{
+        text-align: center;
+    }
+    .corriculumToddlerText p{
+        font-size: 13px;
+        text-align: left;
+    }
+    .corriculumToddlerPic2 {
+        width: 100%;
+        margin: -1px;
+        height: 400px;
+        background: linear-gradient(azure, transparent 70%), url("../images/toddlerPic500.jpg") no-repeat;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .toddler {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumToddlerPic {
+        width: none;
+        height: none;
+        display:none;
+        background-size: cover;
+        background: none;  
+    }
+    .corriculumToddlerText {
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+        background-color: azure;
+        color: #1d0054a6;
+        padding-top: 0px;
+    }
+    .corriculumToddlerTextWrapper {
+        width:300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumToddlerText h1{
+        text-align: center;
+    }
+    .corriculumToddlerText p{
+        font-size: 13px;
+        text-align: left;
+    }
+    .corriculumToddlerPic2 {
+        width: 100%;
+        margin: -1px;
+        height: 300px;
+        background: linear-gradient(azure, transparent 70%), url("../images/toddlerPic375.jpg") no-repeat;
+    }
+}
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */  
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+/* P R E S C H O O L  C O M P O N E N T */  /* P R E S C H O O L  C O M P O N E N T */ 
+.preK {
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+.corriculumPreKPic {
+    width: 38%;
+    float: right;
+    margin: 0px;
+    background-size: cover;
+    height: 500px;
+    background: linear-gradient(to right,whitesmoke, transparent 50%), url("../images/preK500.jpg") no-repeat;
+}
+.corriculumPreKText {
+    width: 62%;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+    background-color: whitesmoke;
+    vertical-align: top;
+    color: #1d0054a6;
+    padding-top: 60px;
+    background-image: url('../images/specks.png');
+    font-family: Montserrat,Arial,sans-serif;
+}
+.corriculumPreKText h1{
+    margin-top:0;
+    padding-top: 20px;
+    color:  rgb(60, 143, 0);  
+}
+.corriculumPreKText p{
+    font-size: 20px;
+    color: grey;   
+}
+.corriculumPreKTextWrapper {
+    width:600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1366px) {
+    .corriculumPreKPic {
+        width: 47%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("../images/preK500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 53%;
+    }
+    .corriculumPreKTextWrapper {
+        width:450px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumPreKText p{
+        font-size: 18px; 
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .corriculumPreKPic {
+        width: 60%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("../images/preK500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 40%;
+    }
+    .corriculumPreKTextWrapper {
+        width:350px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    .corriculumPreKText p{
+        font-size: 17px; 
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .corriculumPreKPic {
+        width: 59%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("../images/preK500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 41%;
+    }
+    .corriculumPreKTextWrapper {
+        width:300px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .corriculumPreKText p{
+        font-size: 17px; 
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .corriculumPreKPic {
+        width: 60%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("../images/preKPic500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 40%;
+    }
+    .corriculumPreKTextWrapper {
+        width:250px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .corriculumPreKText p{
+        font-size: 16px; 
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .corriculumPreKPic {
+        width: 61%;
+        background: linear-gradient(to right,whitesmoke, transparent 100%), url("../images/preKPic500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width: 39%;
+    }
+    .corriculumPreKTextWrapper {
+        width:300px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .corriculumPreKText p{
+        font-size: 17px; 
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .preK {
+        height: auto;
+    }
+    .corriculumPreKPic {
+        width: 50%;
+        height: 300px;
+        background: linear-gradient(to right,whitesmoke, transparent 90%), url("../images/preKPic375.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumPreKTextWrapper {
+        height: auto;
+    }
+    .corriculumPreKText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 414px) {
+    .preK {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumPreKPic {
+        width: 100%;
+        height: 400px;
+        display:block;
+        float: none;
+        margin: -1px;
+        background: linear-gradient(whitesmoke, transparent 50%), url("../images/preKPic500.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('../images/specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumPreKTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumPreKText h1{
+        text-align: center;
+    } 
+    .corriculumPreKText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+
+@media only screen and (max-width: 375px) {
+    .preK {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumPreKPic {
+        width: 100%;
+        height: 300px;
+        display:block;
+        float: none;
+        margin: -1px;
+        background: linear-gradient(whitesmoke, transparent 50%), url("../images/preKPic375.jpg") no-repeat;
+    }
+    .corriculumPreKText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:whitesmoke;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('../images/specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumPreKTextWrapper {
+        width:auto;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumPreKText h1{
+        text-align: center;
+    } 
+    .corriculumPreKText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+/* K I N D E R G A R D E N  C O M P O N E N T */ /* K I N D E R G A R D E N  C O M P O N E N T */
+.kinderPrep {
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    background-color: azure;
+}
+.corriculumKinderPrepPic {
+    width: 47%;
+    float: left;
+    margin: 0px;
+    background-size: cover;
+    height: 500px;
+    background: linear-gradient(to left,azure , transparent 80%), url("../images/kinderPrep500.jpg") no-repeat;
+}
+.corriculumKinderPrepText {
+    width: 53%;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+    background-color: azure;
+    vertical-align: top;
+    color: #1d0054a6;
+    background-image: url('../images/specks.png');
+    font-family: Montserrat,Arial,sans-serif;
+}
+.corriculumKinderPrepTextWrapper {
+    width:600px;
+    height: 400px;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.corriculumKinderPrepText p{
+    font-size: 20px;
+    color: grey;
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+    .corriculumKinderPrepPic {
+        width: 46%;
+    }
+    .corriculumKinderPrepText {
+        width: 54%;
+    }
+    .corriculumKinderPrepTextWrapper {
+        width:500px;
+    }
+    .corriculumKinderPrepText p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .corriculumKinderPrepTextWrapper {
+        width:400px;
+    }
+    .corriculumKinderPrepText p{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .corriculumKinderPrepPic {
+        width: 53%;
+    }
+    .corriculumKinderPrepText {
+        width: 47%;
+    }
+    .corriculumKinderPrepTextWrapper {
+        width:250px;
+    }
+    .corriculumKinderPrepText p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .corriculumKinderPrepPic {
+        width: 50%;
+    }
+    .corriculumKinderPrepText {
+        width: 50%;
+    }
+    .corriculumKinderPrepTextWrapper {
+        width:300px;
+    }
+    .corriculumKinderPrepText p{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 731px) {
+    .kinderPrep {
+        height: auto;
+    }
+    .corriculumKinderPrepPic {
+        width: 49%;
+        height: 300px;
+        background: linear-gradient(to left,azure, transparent 90%), url("../images/kinderPrep500.jpg") no-repeat;
+    }
+    .corriculumKinderPrepText {
+        width: 51%;
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumKinderPrepTextWrapper {
+        padding-top: 0px;
+        height: auto;
+    }
+    .corriculumKinderPrepText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+@media only screen and (max-width: 667px) {
+    .kinderPrep {
+        height: auto;
+    }
+    .corriculumKinderPrepPic {
+        width: 48%;
+        height: 300px;
+        background: linear-gradient(to left,azure, transparent 90%), url("../images/kinderPrep500.jpg") no-repeat;
+    }
+    .corriculumKinderPrepText {
+        width: 50%;
+        height: auto;
+        padding-top: 0px;
+    }
+    .corriculumKinderPrepTextWrapper {
+        padding-top: 0px;
+        height: auto;
+    }
+    .corriculumKinderPrepText p{
+        font-size: 14px;
+        color: grey;
+    }  
+}
+
+@media only screen and (max-width: 414px) {
+    .kinderPrep {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumKinderPrepPic {
+        width: 100%;
+        height: 400px;
+        display:block;
+        float: none;
+        margin: -1px;
+        background: linear-gradient(azure, transparent 50%), url("../images/kinderPrep500.jpg") no-repeat;
+    }
+    .corriculumKinderPrepText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:azure;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('../images/specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumKinderPrepTextWrapper {
+        width:auto;
+        padding-top: 0px;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumKinderPrepText h1{
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 0px;
+    } 
+    .corriculumKinderPrepText p{
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+
+@media only screen and (max-width: 375px) {
+    .kinderPrep {
+        height: auto;
+        display:block;
+        background-image: url('../images/specks.png');
+    }
+    .corriculumKinderPrepPic {
+        width: 100%;
+        height: 300px;
+        display:block;
+        float: none;
+        margin: -1px;
+        background: linear-gradient(azure, transparent 50%), url("../images/kinderPrep375.jpg") no-repeat;
+    }
+    .corriculumKinderPrepText {
+        width:300px;
+        height: 300px;
+        display:block;
+        padding-top: 0px;
+        margin: 0px;
+        background-color:azure;
+        color: #1d0054a6;
+        font-family: Montserrat, Arial,sans-serif;
+        background-image: url('../images/specks.png');
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .corriculumKinderPrepTextWrapper {
+        width:250px;
+        padding-top: 0px;
+        margin-left:0px;
+        display:block;
+        height: auto;
+    }
+    .corriculumKinderPrepText h1{
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 0px;
+    } 
+    .corriculumKinderPrepText p{
+    
+        font-size: 13px;
+        color: grey;
+        text-align: left;
+    }  
+}
+
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+/* F O O T E R  C O M P O N E N T   *//* F O O T E R  C O M P O N E N T   */
+.footerWrapper {
+    width: 600px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: auto;
+    margin: auto;
+    /* background-image: url('../images/specks.png') */
+}
+.footerLinks {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    background-color: transparent;
+}
+.footerLinks p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    font-size: 17px;
+    color: azure;
+}
+.footerLinks ul {
+    margin-top: 0;
+    list-style-type: none;
+    font-size: 12px;
+    color: azure;
+}
+.footerLinks li{
+    padding: 3.5px;
+}
+.footerLinks li:hover{
+    color: yellowgreen;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.footerSocials {
+    float: right;
+    width: 300px;
+    height: auto;
+    background-color: transparent;
+}
+.footerSocials p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    font-size: 17px;
+    color: azure;
+}
+.footerSocials ul {
+    margin-top: 0;
+    list-style-type: none;
+    font-size: 12px;
+}
+.footerSocials a{
+    text-decoration: none;
+    color: azure;
+}
+.footerSocials li:hover{
+    color: yellowgreen;
+}
+.footerSocials img{
+    width: 24px;
+    height: 24px;
+}
+p.watermark {
+    font-size: 10px;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .corriculumWrapper {
+        background-color: yellowgreen;
+    }
+    .block1{
+        border-top-right-radius: 50%;  
+    }
+    .block2{
+        border-top-left-radius: 50%; 
+    }
+    .footerWrapper {
+        width: 300px;
+    }
+    p.watermark {
+        display: inline-block;
+        width: 100%;
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block2{
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+    border-radius: 100% 0px 0px 0px;
+}
+
+.sun{
+    width: 100%;
+    height: auto;
+    background-color:azure;
+    border-radius: 100%;
+}
+
+.block2 {
+    height: auto;
+}
+
+.block1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(60, 143, 0);
+    border-top-right-radius: 50%; 
+    background-image: url('../images/specks.png')
+}
